@@ -4,6 +4,7 @@ import {
   USER_UNAUTHENTICATED,
   AUTHENTICATION_ERROR,
   CHECK_IF_AUTHENTICATED,
+  USER_LOGOUT,
 } from '../actions';
 
 const initialState = {
@@ -23,6 +24,8 @@ export default (state = initialState, action) => {
       return { ...state, error: action.payload };
     case CHECK_IF_AUTHENTICATED:
       return { ...state };
+    case USER_LOGOUT: 
+      return {...state};
     default:
       return state;
   }
