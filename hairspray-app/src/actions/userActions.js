@@ -58,6 +58,12 @@ export const login = (user, history) => {
   };
 };
 
+export const logout = (user) => {
+  localStorage.removeItem('user');
+  localStorage.removeItem('data');
+  return { type: actiontype.USER_LOGOUT }
+}
+
 export const getAllUsers = () => {
   return dispatch => {
     dispatch({ type: actiontype.GETTING_USERS });
