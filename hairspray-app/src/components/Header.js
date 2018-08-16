@@ -3,17 +3,11 @@ import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 
 import {
-  Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
 } from "reactstrap";
 
 export default class Header extends Component {
