@@ -15,7 +15,7 @@ export default class Header extends Component {
     const { logout } = this.props;
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="brown" light expand="md">
           <NavbarBrand href="/">Hairspray</NavbarBrand>
           <Nav className="ml-auto" navbar>
             <NavItem>

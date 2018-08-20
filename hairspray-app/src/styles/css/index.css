@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody');
+
+
 .sidebar {
   height: 100%;
   width: 14%;
@@ -28,6 +31,10 @@
 .welcome {
   margin-left: 15%;
 }
+.About {
+  text-align: center;
+  background: linear-gradient(rgb(142, 90, 71), rgba(255, 138, 14, 0.619) 100%);
+}
 .welcome .title {
   font-size: 42px;
   margin-top: 40px;
@@ -47,24 +54,33 @@
 .carousel-control-next-icon {
   color: #000;
 }
-.landing {
-  display: flex;
+.main {
+  /* display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(227, 179, 83);
 }
-.landing .landing__nav {
+.landing-page {
+  background: linear-gradient(rgb(142, 90, 71), rgba(255, 138, 14, 0.619) 100%);
+}
+ .landing__nav {
   margin: 20px;
+  display: flex;
 }
-.landing .landing__carousel {
-  width: 40%;
+ .landing__carousel {
+  width: 50%;
+  height: 50%; 
+  align-items: center;
 }
-.landing .landing__button {
+.landing__button {
   margin: 20px;
   background-color: #796A4D;
 }
-.landing .landing__button:hover {
+.landing__button:hover {
   background-color: #BFB29B;
 }
 .scheduling {
