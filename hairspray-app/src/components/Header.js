@@ -12,6 +12,7 @@ import {
 
 export default class Header extends Component {
   render() {
+    const { logout } = this.props;
     return (
       <div>
         <Navbar color="light" light expand="md">
@@ -27,6 +28,11 @@ export default class Header extends Component {
                 <NavLink>Sign In</NavLink>
               </Link>
             </NavItem>
+            {/* <NavItem>
+              <Link to="/" onClick={logout}>
+                <NavLink>logout</NavLink>
+              </Link>
+            </NavItem> */}
           </Nav>
         </Navbar>
       </div>
