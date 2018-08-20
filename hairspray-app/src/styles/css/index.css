@@ -30,6 +30,10 @@
 }
 .welcome {
   margin-left: 15%;
+  background-image: url('https://media.istockphoto.com/photos/hairstylist-serving-client-at-barber-shop-picture-id639607852?k=6&m=639607852&s=612x612&w=0&h=oxfWg1ZA_SiJBHbj2nUU9HpYLMBPnyuSWg7W3ySxIp4=');
+  
+
+  animation: fadein 5s;
 }
 .About {
   text-align: center;
@@ -37,13 +41,13 @@
 }
 .welcome .title {
   font-size: 42px;
-  margin-top: 40px;
-  padding: 0 40px;
+  /* margin-top: 40px; */
+  /* padding: 0 40px; */
 }
 .welcome .pic {
-  max-width: 650px;
-  padding: 0 40px;
-  margin: auto;
+  max-width: 850px;
+  /* padding: 0 40px; */
+  /* margin: auto; */
 }
 .carousel__img {
   width: 500px;
@@ -281,6 +285,15 @@
   animation: opac 0.8s;
   color: white;
 }
+
+
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 @keyframes opac {
   from {
     opacity: 0;
